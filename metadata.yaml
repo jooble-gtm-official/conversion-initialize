@@ -1,0 +1,5 @@
+homepage: "https://jooble.org"
+documentation: "https://github.com/jooble-gtm-official/conversion-initialize-template#readme"
+versions:
+  - sha: ca8faf3f53ed6737c178441659353252c2df9f08
+    changeNotes: Initial release.
