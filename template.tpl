@@ -83,7 +83,7 @@ const jbl_setWithExpiry = (key, value, milisecondsToLive) => {
   localStorage.setItem(key, JSON.stringify(item));
 };
 
-jbl_setWithExpiry('jbl_conv_url', conversionUrl, 15 * 60 * 1000);
+jbl_setWithExpiry('jbl_conv_url', conversionUrl, 24 * 60 * 60 * 1000);
 
 // Зробіть виклик data.gtmOnSuccess після виконання тегу.
 data.gtmOnSuccess();
