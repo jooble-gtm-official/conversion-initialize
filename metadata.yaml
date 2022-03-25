@@ -2,8 +2,10 @@ homepage: "https://jooble.org"
 documentation: "https://github.com/jooble-gtm-official/conversion-initialize-template#readme"
 versions:
   # Latest version
+  - sha: 4b067239a402f75caa6b41f9b9956f4e1431bc39
+    changeNotes: Use gtmOnFailure method in case incorrect or empty incoming parameters.
+  # Older versions  
   - sha: 7ac38c540427e5e1e1b26a04b90b45878a4f146e
     changeNotes: Set expire time in local storage to 24 hours.
-  # Older versions
   - sha: ca8faf3f53ed6737c178441659353252c2df9f08
     changeNotes: Initial release.
