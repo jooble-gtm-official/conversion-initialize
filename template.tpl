@@ -57,14 +57,14 @@ const JSON = require('JSON');
 
 const referrerHost = getReferrerUrl('host');
 if (!referrerHost || referrerHost.indexOf('jooble') == -1) {
-  data.gtmOnSuccess();
+  data.gtmOnFailure();
   return;
 }
 
 const utmAway = getQueryParameters('utm_away');
 
 if (!utmAway) {
-  data.gtmOnSuccess();
+  data.gtmOnFailure();
   return;
 }
 
